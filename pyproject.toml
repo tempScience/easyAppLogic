@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "easyapplogic"
+name = "easyAppLogic"
 version = "0.1.0"
 description = "Generic logic for easyScience applications"
 authors = ["Andrew Sazonov", "Simon Ward"]
