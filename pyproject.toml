@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "easyapplogic"
+name = "easyAppLogic"
 version = "0.1.0"
 description = "Generic logic for easyScience applications"
 license = "GPL-3.0-only"
@@ -9,6 +9,9 @@ homepage = "https://github.com/tempscience"
 repository = "https://easyscience.apptimity.com/"
 documentation = "https://github.com/tempscience"
 include = ["CHANGELOG.md"]
+packages = [
+    { include = "easyAppLogic" }
+]
 
 [tool.poetry.dependencies]
 python = "^3.7"
